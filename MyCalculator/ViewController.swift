@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func touchDigit(sender: UIButton) {
+        let digit = sender.currentTitle!
+        print("touched \(digit) digit")
+    }
     
 
 }
